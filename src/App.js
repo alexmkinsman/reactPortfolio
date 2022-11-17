@@ -1,16 +1,40 @@
 import React, { useState } from "react";
-import Footer from "./components/footer";
+import Header from "./components/Header";
+import Nav from "./components/Navigation";
+import Footer from "./components/Footer";
+import Page from "./Page";
 
-//components - which do I need?
-// header, footer, body, 
+// Components
 
 function App() {
-  return <div>
-    <main>
-      Hello
-    </main>
-    <Footer/>
-  </div>
+
+  const [pages] = useState([
+    {
+      name: "About Rosa"
+    },
+    {
+      name: "Portfolio"
+    },
+    {
+      name: "Contact"
+    },
+    {
+      name: "Resume"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  return (
+    <div>
+      <Header />
+      <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage} />
+      <main>
+          <Page currentPage={currentPage}></Page>
+      </main>
+      <Footer />
+    </div>
+  )
 }
 
 export default App;
