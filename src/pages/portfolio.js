@@ -18,7 +18,7 @@ function PortfolioPage (){
                     <h2>Project "Happy Panda"</h2>
                 </div>
                 <div>
-                    <p>With the recent world events, it's been difficult for children to navigate life and social emotional learning. This app is the start of a tool to help young kids I idenify and rectify negative feelings. We utilized MongoDB/Mongoose, Express, React, Node, GraphQL, JSON Web Tokens (JWT), bcrypt, Bulma, and Howler.</p>
+                    <p>After the last few years, Social Emotional Learning has never been more important for children. This interactive app will help children learn simple coping skills and provide vocabulary and basic lessons on emotions and how to live with them. We utilized MongoDB/Mongoose, Express, React, Node, GraphQL, JSON Web Tokens (JWT), bcrypt, Bulma, and Howler.</p>
                     <br/>
                     <figure>
                         <a href="https://safe-peak-97961.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={happyPanda} alt="Screenshot - homepage of Happy Panda" /></a>
@@ -29,10 +29,10 @@ function PortfolioPage (){
 
             <article className="border">
                 <div id="dibs">
-                    <h2>Project "dibs"</h2>
+                    <h2>Project "Dibs"</h2>
                 </div>
                 <div>
-                    <p>We developed an application that allows you to post things you want to give away, and get items, all for free! We utilized Node, Bootstrap framework, along with jQuery.</p>
+                    <p>We developed an application that will join the host of marketplace apps and bring barter and trade into the online shopping space. A new social media for sustainability! We utilized Node, Bootstrap framework, along with jQuery.</p>
                     <br/>
                     <figure>
                         <a href="https://intense-brook-23504.herokuapp.com/" target="_blank" rel="noreferrer"><img className="portfolioPics" src={dibs} alt="Screenshot - homepage of our marketplace" /></a>

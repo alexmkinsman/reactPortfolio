@@ -10,7 +10,7 @@ function ResumePage (){
     return (
         <section className="left">
             <h1 className="H1">Check out my resume!</h1>
-            <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Rosa's Resume</button>
+            <button className="resumeBtn" onClick={downloadFile} target="_blank">Download Alex's Resume</button>
             <div>
                 <h2>Skills</h2>
                 <ul>
